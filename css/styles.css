@@ -23,7 +23,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 .visually-hidden {
   position: absolute;
@@ -74,13 +74,13 @@ body {
 /* page header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 .page-header-container {
   display: flex;
   justify-content: space-between;
+  padding-left: 156px;
   margin-bottom: 8px;
-  padding-left: 76px;
 }
 .page-navigation {
   display: flex;
@@ -99,7 +99,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* margin-right: 76px; */
+  margin-right: 76px;
 }
 .logotype:hover,
 .logotype:focus {
@@ -126,7 +126,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0
+  padding: 24px 0;
 }
 .menu-link:active {
   color: #404bbf;
