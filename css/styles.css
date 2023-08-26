@@ -76,9 +76,6 @@ body {
 }
 .page-header-container {
   display: flex;
-  justify-content: space-between;
-  padding-left: 156px;
-  margin-bottom: 8px;
 }
 .page-navigation {
   display: flex;
@@ -98,6 +95,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  
 }
 .logotype:hover,
 .logotype:focus {
@@ -110,11 +108,9 @@ body {
 .menu {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 24px 0 24px;
-  gap: 40px;
-  padding: 24px 0;
-}
+  margin: 0 auto;
+  gap: 40px;}
+
 .menu-item {
   padding: 24px 0;
 }
@@ -136,6 +132,7 @@ body {
 }
 .address {
   font-style: normal;
+  margin: 0 auto;
 }
 .menu-adress {
   display: flex;
