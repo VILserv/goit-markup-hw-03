@@ -22,8 +22,9 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
   margin-bottom: 8px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .visually-hidden {
   position: absolute;
