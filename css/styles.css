@@ -23,6 +23,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
+  margin-bottom: 8px
 }
 .visually-hidden {
   position: absolute;
@@ -73,11 +74,13 @@ body {
 /* page header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  margin-bottom: 8px
 }
 .page-header-container {
   display: flex;
   justify-content: space-between;
-  padding-left: 156px;
+  margin-bottom: 8px;
+  padding-left: 76px;
 }
 .page-navigation {
   display: flex;
@@ -96,7 +99,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 .logotype:hover,
 .logotype:focus {
@@ -109,18 +112,21 @@ body {
 .menu {
   display: flex;
   justify-content: space-between;
-  margin-left: 76px;
+  margin: 0;
   padding: 24px 0 24px;
   gap: 40px;
-  padding: 24px 0
+  padding: 24px 0;
+ 
 }
-.menu-item {padding: 24px 0}
+.menu-item {
+  padding: 24px 0}
 .menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0
 }
 .menu-link:active {
   color: #404bbf;
@@ -303,6 +309,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-bottom: 8px
 }
 .name-description {
   padding: 32px 16px;
