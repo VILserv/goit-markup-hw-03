@@ -22,7 +22,7 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 .visually-hidden {
   position: absolute;
@@ -96,6 +96,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+  padding: 24px 0 24px;
 }
 .logotype:hover,
 .logotype:focus {
@@ -109,8 +111,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin-left: 76px;
-  padding: 24px 0;
-  gap: 40px;
+  padding: 24px 0 24px;
+  gap: 40px;  
 }
 .menu-link {
   color: #2e2f42;
@@ -122,6 +124,7 @@ body {
 .menu-link:active {
   color: #404bbf;
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
