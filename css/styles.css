@@ -298,7 +298,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: flex;
 }
 .logo-text {
   color: #f4f4fd;
